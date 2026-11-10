@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.*
+!.env.example
+
+# C++ build artifacts
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+
+# Local data and secrets
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.db
+secrets/
+private-data/
+uploads/
