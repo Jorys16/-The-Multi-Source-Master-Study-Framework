@@ -1,0 +1,41 @@
+name: Weekly learning plan
+description: Track one week's objectives and engineering evidence.
+title: "[Wxx] "
+body:
+  - type: input
+    id: week
+    attributes:
+      label: Week and dates
+      placeholder: "W01 — 2026-11-16 to 2026-11-22"
+    validations:
+      required: true
+  - type: input
+    id: theme
+    attributes:
+      label: Weekly theme
+    validations:
+      required: true
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Measurable learning objectives
+      description: What can you explain, implement, test, and teach back?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Expected evidence
+      description: Lab, assignment, tests, diagram, PR, and capstone increment.
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: Learning resources
+      description: Primary source, alternate explanation, official reference, and hands-on lab.
+  - type: textarea
+    id: retrospective
+    attributes:
+      label: Retrospective
+      description: What became clear? What remains fuzzy? What is next?
